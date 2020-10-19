@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <dimen name="navfont" tools:override="true">10sp</dimen>
+    <dimen name="navfonts" tools:override="true">10sp</dimen>
+
+</resources>

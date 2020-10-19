@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/tView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/hori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/teamTitle"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:text="Gunners, Arsenal Football Club, AFC"
+                android:fontFamily="@font/bungeeregular">
+            </TextView>
+
+            <ImageView
+                android:id="@+id/teamImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:adjustViewBounds="true"
+                android:layout_margin="2dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/teamDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/teamTitle"
+                android:textColor="#000000"
+                android:padding="5dp"
+                android:text="Description"
+                android:fontFamily="@font/poppins_light">
+            </TextView>
+
+            <TextView
+                android:id="@+id/More"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/teamTitle"
+                android:textColor="#CA0000"
+                android:padding="5dp"
+                android:text="More >>"
+                android:fontFamily="@font/poppins_light">
+            </TextView>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
