@@ -102,6 +102,7 @@ public class Video extends Fragment {
                 SnapHelper snapHelper = new PagerSnapHelper();
                 snapHelper.attachToRecyclerView(rView);
 
+
             }
 
             @Override
