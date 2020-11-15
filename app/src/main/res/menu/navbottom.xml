@@ -6,7 +6,7 @@
             android:id="@+id/teams"
             android:enabled="true"
             android:title="TEAMS"
-            android:icon="@drawable/ic_baseline_sports_soccer_24"
+            android:icon="@drawable/teams"
             />
 
 
@@ -15,7 +15,7 @@
             android:id="@+id/stadium"
             android:enabled="true"
             android:title="STADIUM"
-            android:icon="@drawable/ic_place"
+            android:icon="@drawable/stadium"
             />
 
 
@@ -24,7 +24,7 @@
             android:id="@+id/socialmedia"
             android:enabled="true"
             android:title="MEDIA"
-            android:icon="@drawable/ic_phone"
+            android:icon="@drawable/media"
            />
 
 

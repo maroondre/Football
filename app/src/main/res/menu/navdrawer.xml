@@ -11,7 +11,7 @@
                 android:id="@+id/score"
                 android:enabled="true"
                 android:title="Live Score"
-                android:icon="@drawable/chart"/>
+                android:icon="@drawable/score"/>
             </menu>
         </item>
     </group>
@@ -22,7 +22,7 @@
             android:id="@+id/live"
             android:enabled="true"
             android:title="Live Matches"
-            android:icon="@drawable/ic_baseline"/>
+            android:icon="@drawable/live_matches"/>
     </group>
 
 
@@ -36,7 +36,7 @@
                     android:id="@+id/tabs"
                     android:enabled="true"
                     android:title="Tab List"
-                    android:icon="@drawable/table"/>
+                    android:icon="@drawable/tab"/>
             </menu>
         </item>
     </group>

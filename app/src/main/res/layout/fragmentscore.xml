@@ -105,7 +105,7 @@
                     android:padding="5dp"
                     android:textSize="24sp"
                     android:text="Score"
-                    android:fontFamily="@font/poppins_light">
+                    android:fontFamily="@font/timer_font">
                 </TextView>
 
             </LinearLayout>

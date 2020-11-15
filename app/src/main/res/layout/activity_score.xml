@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +12,9 @@
     android:layout_marginTop="56dp"
     android:orientation="vertical"
     android:background="@drawable/values"
-    tools:context=".Score">
+    tools:context=".Fragments.Score">
+
+
 
     <com.synnapps.carouselview.CarouselView
         android:id="@+id/carousel"
@@ -37,5 +44,30 @@
             android:layout_height="wrap_content">
         </androidx.recyclerview.widget.RecyclerView>
     </ScrollView>
-
 </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/noEvent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cloud_off"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/none"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/bungeeregular"
+            android:text="No Current Live Matches"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

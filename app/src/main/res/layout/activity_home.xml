@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/navMain"
-    tools:context=".Home">
+    tools:context=".Fragments.Home">
 
     <include
         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
         android:id="@+id/drawer"
         app:menu="@menu/navdrawer"
         app:headerLayout="@layout/nav_header"
-        android:layout_gravity="start"
+        android:layout_gravity="right"
         android:fitsSystemWindows="true">
 
     </com.google.android.material.navigation.NavigationView>

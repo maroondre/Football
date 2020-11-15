@@ -6,7 +6,4 @@
         </trust-anchors>
     </base-config>
 
-    <domain-config cleartextTrafficPermitted="false">
-        <domain includeSubdomains="true">http://livescore-api.com/api-client/scores/</domain>
-    </domain-config>
 </network-security-config>
